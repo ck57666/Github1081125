@@ -1,0 +1,51 @@
+ul{
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+}
+
+.container {
+    display: block;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#logo {
+    float: left;
+}
+
+#nav {
+    float: right;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav a {
+    padding: 0 12px;
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.boundary:after {
+    content: "|";
+    padding: 0 12px;
+}
+
+#nav .active a {
+    color: #d6b161;
+}
